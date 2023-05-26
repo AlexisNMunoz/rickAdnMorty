@@ -1,0 +1,47 @@
+img {
+    width: 100%;
+    box-shadow: 0 0 15px #00000025;
+    border-radius: 5px;
+}
+
+.card {
+    margin: 1rem;
+    border: thin solid rgb(0, 0, 0);
+    box-shadow: 0 0 15px #00000025 inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 250px;
+}
+
+.info {
+    font-size: small;
+    line-height: 15px;
+    font-weight: 600;
+}
+
+.butons_card {
+    padding: 5px 12px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(6, 0, 105, 1) 0%, rgba(9, 9, 121, 1) 48%, rgba(0, 82, 161, 1) 100%);
+}
+
+.card_info {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.masInfo {
+    background: #f0f0f0;
+    text-decoration: none;
+    border: thin solid rgb(0, 0, 0);
+    padding: 5px;
+    color: black;
+}
+
+.masInfo:hover {
+    background: #d6d6d69d;
+}
